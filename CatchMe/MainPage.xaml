@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatchMe.MainPage"
+             Title="">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" x:Name="textBox" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <ImageButton x:Name="button00" Grid.Row="0" Grid.Column="0" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button01" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button02" Grid.Row="0" Grid.Column="2" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button10" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button11" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button12" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button20" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button21" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button22" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button30" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button31" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button32" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button40" Grid.Row="4" Grid.Column="0" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button41" Grid.Row="4" Grid.Column="1" Clicked="Button_Clicked" Background="Transparent"/>
+            <ImageButton x:Name="button42" Grid.Row="4" Grid.Column="2" Clicked="Button_Clicked" Background="Transparent"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>
